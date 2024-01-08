@@ -1,5 +1,5 @@
 const APOD_API_URL = 'https://api.nasa.gov/planetary/apod';
-const API_KEY = 'EHFZhiwFaQRqsRZeJ8eUImFyIk5NxJfqnFb4Jo5i'; 
+const API_KEY = 'api key'; 
 const nasaImage = document.querySelector('.nasa-image');
 const nasaDescription = document.querySelector('.nasa-description')
 const form = document.querySelector('.date-form');
