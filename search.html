@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA - POD</title>
+    <link rel="stylesheet" type="text/css" href="assets/sass/main.css">
+</head>
+<body>
+    <main>
+        <nav class="top">
+            <div class="links">
+                
+                <a class="search" href="search.html">Search Archive</a>
+            </div>
+            <div class="mode">
+                <button class="toggle"><img class="toggle-image" src="assets/graphics/moon.png"></button>
+                <span id="mode" class="light"></span>
+            </div>
+        </nav>
+        <section class="header">
+            <a class="logo" href="#"><img src="assets/graphics/logo.png" alt="NASA Astronomy Picture of the Day logo"></a>
+            <h1 class="title"></h1>
+            <h2 class="about">
+                
+            </h2>
+        </section>
+    <section class="search">
+        <h2>Select a date to view past photos</h2>
+        <form class="date-form">
+            <input class="date-selector" type="date" name="date" id="datePicker" label="hello"><br>
+            <button class="date-submit" type="submit">Submit</button>
+        </form>
+    </section>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/api.js"></script>
+    <script type="text/javascript" src="assets/js/mode.js"></script>
+</body>
+</html>

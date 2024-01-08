@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA - POD</title>
+    <link rel="stylesheet" type="text/css" href="assets/sass/main.css">
+</head>
+<body>
+    <main>
+        <nav class="top">
+            <div class="mode">
+                <button class="toggle"><img class="toggle-image" src="assets/graphics/moon.png"></button>
+                <span id="mode" class="light"></span>
+            </div>
+        </nav>
+        <section class="header">
+            <a class="logo" href="#"><img src="assets/graphics/logo.png" alt="NASA Astronomy Picture of the Day logo"></a>
+            <h1 class="title"></h1>
+            <h2 class="about">
+                Since its inception in 1995, NASA's Astronomy Picture of the Day (APOD) has showcased the beauty and wonder of the universe. Curated by professional astronomers, each day brings a new image or photograph of our captivating cosmos. These pictures range from stunning views of planets and galaxies to images of celestial phenomena and the artistry of the night sky. Accompanied by a brief explanation, APOD serves as a bridge between the astronomical community and the public, illuminating the mysteries of the universe one day at a time. Today, it stands as a testament to humanity's enduring fascination with the cosmos, sharing the marvels of space with enthusiasts around the globe.
+            </h2>
+        </section>
+        <section class="flex-container">
+            <div class="nasa-image-container"><img class="nasa-image" alt=""></div>
+            <div class="nasa-description-container">
+                <h2 class="pod-title">Photo of the Day - <span class="current-date"></span></h2>
+                <h2 class="pod-name"></h2>
+                <p class="nasa-description"></p>
+            </div> 
+        </section>
+        <section class="search">
+            <h2 class="date-title">Select a date to view past photos</h2>
+            <form class="date-form">
+                <input class="date-selector" type="date" name="date" id="datePicker" label="hello"><br>
+                <button class="date-submit" type="submit">Submit</button>
+            </form>
+        </section class="archive">
+        <section class="flex-container">
+            <div class="archive-image-container"><img class="archive-image" alt=""></div>
+            <div class="archive-description-container">
+                <h2 class="archive-title"><span class="archive-date"></span></h2>
+                <p class="archive-description"></p>
+            </div> 
+        </section>
+    </main>
+
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/api.js"></script>
+    <script type="text/javascript" src="assets/js/mode.js"></script>
+</body>
+</html>
